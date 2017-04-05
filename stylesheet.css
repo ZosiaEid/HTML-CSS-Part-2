@@ -1,0 +1,123 @@
+* {
+		margin: 0;
+		padding: 0;
+	}
+	
+	body {
+		font-family: Cambria, Verdana, sans-serif;
+		background-color: #000000;
+	}
+	
+	.wrapper {
+		width: 700px;
+		margin: 20px auto;
+	}
+	
+	.header {
+		width: 700px;
+		background-image: url("http://piekny.kolobrzeg.pl/wp-content/uploads/2013/06/morze-baltyckie.jpg");
+		text-align: center;
+		
+	}
+	
+	divheader img {
+		padding-top: 20px;
+		padding-bottom: 20px;
+	}
+	
+	.line {
+		width: 700px;
+		height: 1px;
+		background-color: #5a5ff5;
+	}
+	
+	.links {
+		width: 700px;
+		background-color: #090d91;
+	}
+	
+	.nav {
+		width: 384px;
+		background: #090d91;
+		height: 36px;
+		margin: 0 auto;
+	}
+	
+	ul {
+		list-style-type: none;
+	}
+	
+	li {
+		float: left;
+	}
+	
+	a {
+		display: block;
+		height: 20px;
+		line-height: 20px;
+		background-color: #000000;
+		width: 80px;
+		font-size: 0.8em;
+		font-weight: bold;
+		color: #9f9fff;
+		text-align: center;
+		text-decoration: none;
+		margin: 7px;
+		
+		/*Border Radius*/
+		border-radius: 5px;
+		border: 1px solid #ffffff;
+	}
+	
+	a:hover {
+		background-color: #565656;
+	}
+	
+	a:visited {
+		background-color: #565656;
+		color: #f3fdfc;
+		cursor: default;
+	}
+	
+	.about {
+		width: 700px;
+		background-color: #a3bcf6;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	
+	.content {
+		width: 430px;
+		margin: 0 auto;
+		background-color: #000000;
+		border: 1px solid #090d91;
+		border-radius: 15px;
+		box-shadow: 5px 5px 4px #09245e;
+	}
+	
+	#contentimg{
+		width: 90px;
+		height: 123px;
+		float: left;
+		border: 1px solid #9fabf5;
+		padding: 16px;
+		margin: 0.7em; 
+		
+		/*Border Radius*/
+		border-radius: 15px;
+	}
+	
+	h4 {
+		color: #9f9fff;
+		padding-top: 0.8em;
+		padding-bottom: 0;
+		padding-left: 0;
+		padding-right: 0;
+	}
+	
+	p {
+		font-size: 0.7em;
+		color: #9f9fff;
+		padding: 0.7em;
+		line-height: 1.4em;
+	}
