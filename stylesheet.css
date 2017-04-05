@@ -14,7 +14,6 @@
 	}
 	
 	.header {
-		width: 700px;
 		background-image: url("http://piekny.kolobrzeg.pl/wp-content/uploads/2013/06/morze-baltyckie.jpg");
 		text-align: center;
 		
@@ -23,6 +22,11 @@
 	divheader img {
 		padding-top: 20px;
 		padding-bottom: 20px;
+	}
+	
+	#headerimg {
+		width: 400px;
+		height: 200px;
 	}
 	
 	.line {
