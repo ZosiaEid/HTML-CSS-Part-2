@@ -110,8 +110,9 @@
 		border-radius: 15px;
 	}
 	
-	h4 {
+	#contenttitle {
 		color: #9f9fff;
+		font-size: 1em;
 		padding-top: 0.8em;
 		padding-bottom: 0;
 		padding-left: 0;
