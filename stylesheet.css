@@ -25,19 +25,19 @@
 	}
 	
 	#headerimg {
-		width: 400px;
 		height: 200px;
 	}
 	
 	.line {
-		width: 700px;
 		height: 1px;
 		background-color: #5a5ff5;
 	}
 	
 	.links {
-		width: 700px;
 		background-color: #090d91;
+		border-top: 1px solid #090d91;
+		border-bottom: 1px solid #090d91;
+		
 	}
 	
 	.nav {
@@ -84,7 +84,6 @@
 	}
 	
 	.about {
-		width: 700px;
 		background-color: #a3bcf6;
 		padding-top: 60px;
 		padding-bottom: 60px;
